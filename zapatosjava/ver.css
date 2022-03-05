@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px;
+
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(251, 194, 235, 0.61) 0%, rgba(166, 192, 238, 0.582) 100%), url(imge/calzado11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(3, 3, 3, 0.582);
+}
+.numero40{
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
+    background: cornsilk;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 5);
+}
+.menu-preferencias{
+    position: fixed;
+    top: 0%;
+    right: 0;
+    width: 30vw;
+    height: 100%;
+    background-image: linear-gradient(to right, #0fe479 0%, #5affce 0%, #60f6c4 21%, #6cdf98 52%, #65dd97 78%, #3be67d 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: tranform .3s ease-in-out;
+    transform: translate(110%);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+
+}
+.spread{
+    transform: translate(0);
+}
+.menu-preferencias a{
+    color: #111213;
+    text-decoration: none;
+
+}
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 100%;
+    color: #772222 ;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+.contenedor-calzado{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-calzado img{
+    width: 40%;
+
+}
+.calzado-zapatos{
+    width: 54%;
+}
+.zapatos{
+    margin-bottom: 20px;
+
+}
+.n-zapatos{
+    margin-bottom: 7px;
+    color: rgb(243, 49, 0);
+}
+.number{
+    display: inline-block;
+    background-image: ;
+    background-image: linear-gradient(to top, #7ac2c2 0%, #99c9e9 100%);
+    width: 30px;
+    height: 30px;
+    color: #e02d2d;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700%;
+    line-height: 30px;
+    margin-right: 5px;
+
+}
+.GalleryNike{
+background: rgba(189, 68, 68, 0.622);
+}
+
+/*.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}*/
+.contenedor-galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+    
+}
+.galeria{
+    object-fit: cover;
+    width: 40%;
+    display: block;
+    margin-bottom: 0.9vh;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+}
+.imagen-light{
+    position:fixed;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transform: translate(110%);
+    transition: transform .2s ease-in-out;
+}
+.show{
+    transform: translate(0);
+}
+.agregar-imagen{
+    object-fit: cover;
+    width: 60%;
+    border-radius: 10px;
+    transform: scale(1)
+    transition;transform: .3s .2s;
+}
+.showimagen{
+    transform: scale(1);
+
+}
+.close{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+
+}
+.expest{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.cont-expert img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+.n-zapatos{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+footer{
+    background: #ad2b82;
+    padding-bottom: 0.1px;
+    
+
+}
+.footer-content{
+    display: flex;
+    justify-items: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    /*float: none;*/
+}
+.contact-us{
+    width: 40%;
+    color: #fff;
+    
+}
+.brand{
+    font-weight: 500;
+    font: size 40px;
+    
+}
+.brand+p{
+    font-weight: 500;
+
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60%;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color: #9167f1;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+}
