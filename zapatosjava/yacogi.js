@@ -1,7 +1,7 @@
 const imagenes = document.querySelectorAll('.contenedor-galeria')
 const imageneslight = document.querySelector('.galeria')
 const contenedorlight = document.querySelector('.imagen-light')
-const imagenes = document.querySelector('.numero40')
+const imagen = document.querySelector('.numero40')
 
 /*console.log(imagenes)
 console.log(imageneslight)

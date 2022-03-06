@@ -113,7 +113,7 @@ header{
 }
 .number{
     display: inline-block;
-    background-image: ;
+    background-image: 2px ;
     background-image: linear-gradient(to top, #7ac2c2 0%, #99c9e9 100%);
     width: 30px;
     height: 30px;
@@ -276,4 +276,4 @@ footer{
     margin-bottom: 60px;
 }
 
-}
+
